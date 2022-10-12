@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+int main(){
+int a = 0;
+cout <<"请输入您想要的数字:">> endl;
+cin >> a;
+while(cin >> a){
+for(int b = 0;b < a;b++)
+{
+cout <<"Hello!RobotMaster!">>endl;
+}
+}
+}
+
+
+
+#include<iostream>
+using namespace std;
+int main(){
+int a = 0;
+cout <<"请输入您想要的数字:">> endl;
+cin >> a;
+while(cin >> a){
+while(a--)
+{
+cout <<"Hello!RobotMaster!">>endl;
+}
+}
+}
